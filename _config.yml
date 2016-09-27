@@ -6,3 +6,17 @@ sass:
     style:  compressed  # nested|expanded|compact|compressed
 
 exclude: [ '*.sublime*', 'README.md' ]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog"
